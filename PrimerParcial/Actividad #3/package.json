@@ -1,0 +1,31 @@
+{
+  "name": "restaurante-app",
+  "version": "1.0.0",
+  "description": "Proyecto de restaurante - Integrante 2 (Entidades de Negocio Principal) usando TypeORM puro con Node.js y TypeScript.",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/main.ts"
+  },
+  "keywords": [
+    "typeorm",
+    "typescript",
+    "nodejs",
+    "sqlite",
+    "restaurante"
+  ],
+  "author": "Integrante 2",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
